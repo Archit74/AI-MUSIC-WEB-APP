@@ -1,0 +1,41 @@
+body
+{
+font-family: cursive;
+background-size: cover;
+}
+
+.header
+{
+    width: 100%;
+    top: 0px;
+    height: 50px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+canvas
+{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px green;}
+    
+    }
+
+    .footer
+    {
+        text-align: center;
+        bottom: 0px;
+        background-color: gray;
+        position: fixed;
+        width: 100%;
+        height: 25px;
+        font-size: 18px;
+    }
